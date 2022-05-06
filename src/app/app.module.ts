@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { FormsModule } from '@angular/forms';
 import { StudentComponent } from './student/student/student.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 
 
@@ -25,6 +26,7 @@ import { StudentComponent } from './student/student/student.component';
     AboutComponent,
     ContactComponent,
     StudentComponent,
+    PagenotfoundComponent,
   
   
   ],

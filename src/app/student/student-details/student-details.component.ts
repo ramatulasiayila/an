@@ -7,15 +7,15 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./student-details.component.css']
 })
 export class StudentDetailsComponent implements OnInit {
-name:string;
-id:string;
-branch:string;
+name1:string;
+id1:string;
+branch1:string;
   
   constructor(private route:ActivatedRoute) { 
     let person = route.snapshot.queryParams;
-    this.name=person['name'];
-    this.id=person['id'];
-    this.branch=person['branch'];
+    this.name1=person['name'];
+    this.id1=person['id'];
+    this.branch1=person['branch'];
   }
 
   ngOnInit(): void {
