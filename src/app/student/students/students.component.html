@@ -1,0 +1,10 @@
+<app-add-student (usercreted)="addstudent($event)"></app-add-student>
+
+<div *ngIf="studnets.length>0;else nouser">
+    <app-student *ngFor="let student of studnets" [name]="student.name" [id]="student.id" [branch]="student.branch"></app-student>
+</div>
+<ng-template #nouser>
+    <p>nouser</p>
+</ng-template>
+
+
