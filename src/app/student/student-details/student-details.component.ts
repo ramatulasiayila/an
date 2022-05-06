@@ -13,7 +13,7 @@ branch1:string;
   
   constructor(private route:ActivatedRoute) { 
     let person = route.snapshot.queryParams;
-    this.name1=person['name'];
+    this.name1=person[''];
     this.id1=person['id'];
     this.branch1=person['branch'];
   }
